@@ -4,6 +4,6 @@ Rails.application.routes.draw do
 
   get 'about' => 'pages#about', as: 'about'
 
-  resource :posts
+  resources :posts
 
 end
